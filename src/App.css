@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,44 @@
   to {
     transform: rotate(360deg);
   }
+} */
+body {
+  padding: 0;
+  margin-top: 20%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Titr";
+  color: blueviolet;
+  border: 2px solid rgb(227, 222, 222);
+  border-radius: 10px;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 2px 5px 10px rgba(130, 158, 5, 0.502);
+  transition-duration: 2ms;
+  padding: 12.2px;
+}
+.box {
+  border: 3px solid brown;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.active {
+  background-color: green;
+  border: 3px solid brown;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  border-radius: 50%;
 }
